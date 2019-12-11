@@ -1,0 +1,19 @@
+{
+  "name": "bdpu_bot",
+  "version": "1.0.0",
+  "description": "bdpu bot diplom work",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config index.js"
+  },
+  "author": "Dima Shkarabura",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "telegraf": "^3.32.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
